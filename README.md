@@ -4,8 +4,7 @@ This repository purpose is to classify disaster: Cyclone, Earthquake, Flood, and
 
 # Dataset
 Dataset is downloaded from kaggle. The link to the website is [here](https://www.kaggle.com/mikolajbabula/disaster-images-dataset-cnn-model?select=DisasterModel).
-It contains 2000 train data and test data.
-However, due to the huge size of the original dataset, we only used the training data as our whole dataset. We further split the 3662 images into train and validation data.
+It contains 2000 train data and 500 test data.
 
 <table>
 <tr>
