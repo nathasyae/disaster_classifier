@@ -1,6 +1,6 @@
-# Diabetic Retinopathy Classifier
+# Disaster Classifier
 
-This repository aims to classify retina images taken using fundus photography into 5 categories of diabetic retinopathy (DR): No DR, Mild, Moderate, Severe, and Proliferative DR.
+This repository purpose is to classify disaster: Cyclone, Earthquake, Flood, and Wildfire.
 
 # Dataset
 Dataset is downloaded from kaggle. The link to the website is [here](https://www.kaggle.com/mikolajbabula/disaster-images-dataset-cnn-model?select=DisasterModel).
@@ -9,10 +9,10 @@ However, due to the huge size of the original dataset, we only used the training
 
 <table>
 <tr>
-<td> <img src="data/train/cyclone/0.jpg" width="100"> <p><em>Cyclone</em> </p></td>
-<td><img src="data/train/earthquake/0.jpg" width="100"> <p><em>Earthquake</em> </p></td>
-<td> <img src="data/train/flood/0.jpg" width="100"> <p><em>Flood</em> </p></td>
-<td> <img src="data/train/wildfire/0.jpg" width="100"> <p><em>Wildfire</em> </p></td>
+<td> <img src="data/train/cyclone/0.jpg" width="200"> <p><em>Cyclone</em> </p></td>
+<td><img src="data/train/earthquake/0.jpg" width="200"> <p><em>Earthquake</em> </p></td>
+<td> <img src="data/train/flood/0.jpg" width="200"> <p><em>Flood</em> </p></td>
+<td> <img src="data/train/wildfire/0.jpg" width="200"> <p><em>Wildfire</em> </p></td>
 </tr>
 </table>
 
