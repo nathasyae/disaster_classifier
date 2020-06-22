@@ -17,8 +17,8 @@ It contains 2000 train data and 500 test data.
 
 # How to Run
 Prepare `data` folder to be structured like this
-    
- 
+
+
     ├── data
     |    ├── train
     |        ├── cyclone
@@ -31,7 +31,7 @@ Prepare `data` folder to be structured like this
     |        ├── flood
     |        ├── wildfire
     └── ...        
-            
+
 `python3 train_disaster.py -h`
 
 ```
@@ -63,10 +63,17 @@ With simple architecture
 
 With Transfer learning VGG19
 
-`python3 train.py -e 3 -opt adam -l binary_crossentropy -act relu -t vgg19` 
+`python3 train.py -e 3 -opt adam -l binary_crossentropy -act relu -t vgg19`
 
 
 # To-do
 - add readme ✅
 - implement transfer learning ✅
 - implement hyperparameter tuning ✅
+
+# Team
+Bangkit JKT1-C
+
+Pray Somaldo - @prays
+Nathasya Eliora - @nathasyae
+Rizqia Azizah
